@@ -3,10 +3,10 @@ import "../BookType/BookType.scss";
 
 function BookType({ onSearch, onGenreChange }) {
   return (
-    <div className="book-card">
-      <label htmlFor="booktypes">Select BookType:</label>
+    <div className="book-type">
+      <label htmlFor="booktypes">Select: </label>
       <select id="booktypes" className="book-dropdown" onChange={onGenreChange}>
-        <option value="">Select a Genre</option>
+        <option value="">Find a Book by Genre</option>
         <option value="fiction">Fiction</option>
         <option value="science_fiction">Science Fiction</option>
         <option value="fantasy">Fantasy</option>
