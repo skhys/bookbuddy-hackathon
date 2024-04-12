@@ -1,0 +1,40 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../assets/AvenirNextLTPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../assets/AvenirNextLTPro-Demi.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../assets/AvenirNextLTPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: bold;
+}
+
+$font-path: "/fonts/";
+
+$avenir-font-family: "avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font1: 400;
+$font2: 600;
+$font3: 700;
+
+$bodyfont-mobile: 13px;
+$headerfont-mobile: 24px;
+$subheaderfont-mobile: 13px;
+$labelfont-mobile: 10px;
+
+$bodyfont-tablet: 16px;
+$headerfont-tablet: 33px;
+$subheaderfont-tablet: 14px;
+$labelfont-tablet: 12px;
